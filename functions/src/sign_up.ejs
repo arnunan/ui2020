@@ -1,0 +1,20 @@
+<%- include('template/header') -%>
+
+<center>
+	<br/><br/><br/>
+	<form action="/sign_up" method="POST">
+		<fieldset style="width: 300px;">
+		<legend>Регистрация:</legend>
+			<label for="email">Email:</label><br/>
+			<input type="text" name="email"><br><br>
+
+			<label for="password">Password:</label><br/>
+			<input type="password" name="password"><br><br>
+
+			<input type="submit" value="Создать"><br/><br/>
+			<a href="/sign_in">Есть аккаунт ?</a>
+		</fieldset>
+	</form>
+</center>
+
+<%- include('template/footer') -%>
